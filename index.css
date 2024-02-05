@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.time {
+    display: flex;
+}
+
+.time h1 {
+   background-image: linear-gradient(to bottom, rgba(82, 202, 250,0.9),rgba(64, 113, 247,0.9));
+   padding: 15px 10px 15px 10px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.time-btn button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    margin: 8px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.time-btn .start {
+   background-image: linear-gradient(to right, rgb(154, 245, 163), rgb(44, 245, 64));
+   color: black;
+}
+
+.time-btn .stop {
+    background-image: linear-gradient(to right, rgb(247, 106, 111), rgb(245, 12, 20))
+ }
+
+ .time-btn .reset {
+    background-image: linear-gradient(to right, rgb(250, 234, 110), rgb(255, 226, 0));
+    color: black;
+ }
+
+ .time-btn .elapsebtn {
+    background-image: linear-gradient(to right, rgba(82, 202, 250,0.9),rgba(64, 113, 247,0.9));
+ }
+
+ .elapse {
+    background-color: rgba(0,0,0,0.8);
+    padding: 6px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+ }
+
+ .elapse .remove {
+    margin-left: 8px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to right, rgb(247, 106, 111), rgb(245, 12, 20));
+    color: white;   
+ }
+
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+}
+
